@@ -7,3 +7,8 @@ def isPrime(n):
     if n % i == 0:
       return False
   return True
+
+def isComposite(n):
+  if n == 1:
+    return False
+  return not isPrime(n)
