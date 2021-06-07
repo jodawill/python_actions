@@ -2,11 +2,12 @@ from math_tools import *
 from sys import exit
 
 def test(f, expect, *args):
+  formatted_args = ', '.join(list(map(str, args)))
   if f(*args) == expect:
-    print(f'TEST: {f.__name__}{args} -- PASS')
+    print(f'PASS: {f.__name__}({formatted_args}) expects {expect}')
     return 0
   else:
-    print(f'TEST: {f.__name__}{args} -- FAIL')
+    print(f'FAIL: {f.__name__}({formatted_args}) expects {expect}')
     return 1
 
 exit_code = 0
