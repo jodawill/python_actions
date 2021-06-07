@@ -9,4 +9,6 @@ def isPrime(n):
   return True
 
 def isComposite(n):
+  if n == 1:
+    return False
   return not isPrime(n)
