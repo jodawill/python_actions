@@ -6,8 +6,8 @@ def isPrime(n):
       return False
   return True
 
-n = int(input("Enter a number: "))
-if isPrime(n):
-  print(f'{n} is prime')
-else:
-  print(f'{n} is not prime')
+#n = int(input("Enter a number: "))
+#if isPrime(n):
+#  print(f'{n} is prime')
+#else:
+#  print(f'{n} is not prime')
