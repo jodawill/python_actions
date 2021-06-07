@@ -1,2 +1,2 @@
 # python_actions
-Testing GitHub Actions with Python
+This repository is a sandbox for me to learn GitHub Actions.
